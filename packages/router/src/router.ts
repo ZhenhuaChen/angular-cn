@@ -897,7 +897,10 @@ export class Router {
    */
   get url(): string { return this.serializeUrl(this.currentUrlTree); }
 
-  /** The current Navigation object if one exists */
+  /** The current Navigation object if one exists
+   *
+   * 当前导航对象（如果存在的话）
+   */
   getCurrentNavigation(): Navigation|null { return this.currentNavigation; }
 
   /** @internal */
